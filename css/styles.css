@@ -86,6 +86,7 @@ a {
 .logo header-logo {
   color: #2e2f42;
   text-decoration: none;
+  margin-right: 76px;
 }
 
 .logo {
@@ -99,7 +100,7 @@ a {
 }
 .logo-dark {
   color: #2e2f42;
-  margin-right: 76px;
+  /* margin-right: 76px; */
 }
 
 .nav-list {
@@ -144,6 +145,7 @@ a {
   color: #434455;
 }
 .info-item {
+  padding: 24px 0;
   display: inline;
   font-weight: 400;
   font-size: 16px;
@@ -233,6 +235,7 @@ a {
   width: calc((100% - 72px) / 4);
 }
 .skills-title-text {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
