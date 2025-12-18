@@ -25,20 +25,19 @@ p {
   display: flex;
   gap: 8px;
 }
-,
+
 /* item { */
-  width: calc(100%);
-}
+/* width: calc(100%); */
 
 /* section { */
-  padding: ;
+/* padding: ; */
 /* } */
 /* section list { */
-  display: flex;
+/* display: flex; */
 /* } */
 /* section caption {заголовок */
-  width: max 496px;
-  max-width: 496px;
+/* width: max 496px; */
+/* max-width: 496px; */
 /* } */
 section hiro {
 }
@@ -64,12 +63,13 @@ a {
 /* } header */
 /* #region */
 /* #enregion */
+
 .header .container {
   padding-top: 24px;
-padding-bottom: 24px;
-padding-left: 156px;
-padding-right: 156px;
-
+  padding-bottom: 24px;
+  padding-left: 156px;
+  padding-right: 156px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .logo header-logo {
   color: #2e2f42;
@@ -77,7 +77,6 @@ padding-right: 156px;
 }
 
 .logo {
-
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -96,13 +95,12 @@ padding-right: 156px;
 }
 .nav-list {
   padding-left: 0px;
-   margin-top: 0px;
-   margin-left: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
   margin-bottom: 0px;
   text-decoration: none;
 }
 .nav-link {
- 
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
@@ -122,7 +120,6 @@ padding-right: 156px;
   color: #404bbf;
 }
 .nav-item {
- 
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -151,10 +148,7 @@ padding-right: 156px;
   color: #404bbf;
 }
 .address {
-
-
   font-style: normal;
-
 }
 .info {
   display: flex;
@@ -167,6 +161,8 @@ padding-right: 156px;
   width: 1440;
   /* height: 600; */
   /* top: 72px; */
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .hiro-title {
   font-family: Roboto;
@@ -177,6 +173,7 @@ padding-right: 156px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+  /* border: 120px 80px; */
 }
 .btn {
   font-family: "Roboto", sans-serif;
@@ -198,12 +195,19 @@ padding-right: 156px;
   background-color: #404bbf;
 }
 /* section skills */
+.skills .container {
+  display: flex;
+  justify-content: center;
+}
 .skills-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  justify-content: center;
 }
 .skills-list {
   display: flex;
@@ -226,6 +230,11 @@ padding-right: 156px;
 /* section team */
 .team {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.team .container {
+  flex-wrap: wrap;
 }
 
 .team-title {
@@ -243,9 +252,10 @@ padding-right: 156px;
 }
 .team-list {
   display: flex;
+  flex-wrap: wrap;
 }
 .team-item {
-  display: block;
+  /* display: block; */
   background-color: #ffffff;
 }
 .team-title-text {
@@ -265,6 +275,8 @@ padding-right: 156px;
 /* sections Portfolio */
 .portfolio {
   /* width: 1440; */
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .portfolio-title {
   font-family: Roboto;
@@ -281,6 +293,7 @@ padding-right: 156px;
 }
 .portfolio-list {
   display: flex;
+  flex-wrap: wrap;
 }
 .portfolio-item {
   display: block;
@@ -308,9 +321,11 @@ padding-right: 156px;
 /* footer */
 .footer {
   background-color: #2e2f42;
-  width: 1440;
-  height: 312;
-  top: 2988px;
+  /* width: 1440; */
+  /* height: 312; */
+  /* top: 2988px; */
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .footer-text {
   font-family: Roboto;
