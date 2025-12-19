@@ -15,12 +15,17 @@ h6,
 p {
   margin: 0;
 }
+ul {
+  margin: 0;
+  padding: 0;
+}
 .container {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
 .header-nav {
+  margin-right: 76px;
   display: flex;
   align-items: center;
 }
@@ -50,7 +55,6 @@ a {
   display: flex;
 }
 .header-logo {
-  /* margin-right: 76px; */
   color: #2e2f42;
   text-decoration: none;
 }
@@ -131,13 +135,13 @@ a {
 .info {
   display: flex;
   padding-left: 0px;
-  /* margin-left: 332px; */
+
   gap: 40px;
 }
 /* main */
 .hiro {
   background-color: #2e2f42;
-  /* width: 1440; */
+
   padding: 188px 0;
 }
 .hiro-title {
@@ -150,7 +154,6 @@ a {
   text-align: center;
   letter-spacing: 0.02em;
   max-width: 496px;
-  /* border: 120px 80px; */
 }
 .btn {
   display: block;
@@ -179,10 +182,6 @@ a {
   padding: 120px 0;
 }
 .skills .container {
-  /* width: calc((100% - 72px) / 4); */
-  /* display: flex; */
-  /* justify-content: center; */
-  /* padding: 120px 0; */
 }
 .skills-title {
   font-weight: 700;
@@ -192,16 +191,16 @@ a {
   color: #2e2f42;
   padding-top: 120px;
   padding-bottom: 120px;
-  justify-content: center;
+  /* justify-content: center; */
   margin-bottom: 8px;
+  text-align: center;
 }
 .skills-list {
-  width: calc((100% - 72px) / 4);
   display: flex;
   gap: 24px;
 }
 .skills-item {
-  /* width: calc((100% - 72px) / 4); */
+  width: calc((100% - 72px) / 4);
 }
 .skills-title-text {
   margin-bottom: 8px;
@@ -243,7 +242,6 @@ a {
   text-transform: capitalize;
 }
 .team-list {
-  width: calc((100% - 72px) / 4);
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
@@ -253,6 +251,7 @@ a {
 }
 .team-item {
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 
   /* display: block; */
   background-color: #ffffff;
@@ -272,19 +271,18 @@ a {
 }
 .team-text {
   text-align: center;
-  /*  */
+
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 /* sections Portfolio */
 .portfolio {
-  /* width: 1440; */
   padding-top: 120px;
   padding-bottom: 120px;
 }
 .portfolio-title {
   margin-bottom: 72px;
-  /*  */
+
   font-family: Roboto;
   font-weight: 700;
   text-align: center;
@@ -309,10 +307,10 @@ a {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  width: 360px;
 }
 .portfolio-item {
-  /* width: calc((100% - 48px) / 3); */
-  /*  */
+  width: calc((100% - 48px) / 3);
   display: block;
 }
 .portfolio-title-text {
