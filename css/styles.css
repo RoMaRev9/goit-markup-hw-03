@@ -57,6 +57,7 @@ a {
 .header-logo {
   color: #2e2f42;
   text-decoration: none;
+  margin-right: 76px;
 }
 
 .logo {
@@ -70,7 +71,6 @@ a {
 }
 .logo-dark {
   color: #2e2f42;
-  margin-right: 76px;
 }
 
 .nav-list {
